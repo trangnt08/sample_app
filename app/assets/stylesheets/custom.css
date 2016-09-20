@@ -1,3 +1,5 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
 .container {
 	width: 700px;
 }
@@ -38,10 +40,6 @@ body {
 	background: #cff;
 }
 
-header img {
-	padding: 1em;
-	background: #fff;
-}
 /* Navigation */
 nav {
 	float: right;
@@ -90,12 +88,30 @@ a.signup_button {
 }
 
 footer {
+   	position:absolute;
+   	bottom:0;
+      /* Height of the footer */
+   	background:#6cf;
+   	text-align: center;
+	margin-top: 10px;
+	width: 100%;
+	padding-top: 10px;
+	padding-left: 100px;
+	padding-right: 100px;
+	padding-bottom: 10px;
+}
+/*footer {
 	text-align: center;
 	margin-top: 10px;
 	width: 710px;
 	margin-left: auto;
 	margin-right: auto;
-}
+}*/
 footer nav {
 	float: none;
+}
+
+.image_container{
+    width:20%;
+    height: 20%;
 }
